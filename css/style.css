@@ -21,6 +21,10 @@ hr {
     margin: 0%;
 }
 
+figure {
+    margin: 0%;
+}
+
 #marvel-logo-img {
     border: 0px solid rgb(16, 16, 199);
 
@@ -35,6 +39,7 @@ hr {
     
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .main-nav-item {
@@ -54,27 +59,31 @@ hr {
 }
 
 #announcement-section {
-    border: 1px solid blue;
+    border: 0px solid blue;
     background-color: rgb(23, 22, 22);
+
     padding: 0%;
+    margin: 0%;
 }
 
 #announcement-section a{
+    border: 0px solid purple;
+
     text-decoration: none;
     color: inherit;
+    height: 40px;
 
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .announcement {
-    border: 1px solid red;
+    border: 0px solid red;
     align-self: center;
     font-size: 14px;
 }
 
 #disney-plus-logo-img {
-    border: 1px solid green;
-    
+    border: 0px solid green;
 }
