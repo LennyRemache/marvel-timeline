@@ -7,7 +7,7 @@ body {
     background: rgb(31, 30, 30);
     color: whitesmoke;
     font-family: marvel-font, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin: 0%;
 }
 
@@ -87,3 +87,30 @@ figure {
 #disney-plus-logo-img {
     border: 0px solid green;
 }
+
+#wallpaper figure {
+    border: 0px solid blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#wallpaper figure figcaption {
+    border: 0px solid red;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    
+}
+
+
+#marvel-wallpaper {
+    border: 0px solid blue;
+
+    width: 100%;
+    opacity: 0.4;
+}
+
