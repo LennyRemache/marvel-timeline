@@ -25,6 +25,10 @@ figure {
     margin: 0%;
 }
 
+a {
+    text-decoration: none;
+}
+
 #marvel-logo-img {
     border: 0px solid rgb(16, 16, 199);
 
@@ -119,6 +123,28 @@ figure {
     height: 65vh;
     object-fit: cover;
     object-position: 0px 0px;
-    opacity: 0.4;
+    opacity: 0.45;
 }
+
+.about-marvel {
+    position: absolute;
+    top: 60%; 
+}
+
+.learn-more-btn {
+    border: 1px solid rgba(56, 54, 54, 0.8);
+    font-family: inherit;
+    font-size: 16px;
+    background-color: rgba(31, 30, 30, 0.6);
+    color: whitesmoke;
+    width: 150px;
+    height: 30px;
+}
+
+.learn-more-btn:hover {
+    cursor: pointer;
+    background: rgba(31, 30, 30, 0.75);
+}
+
+
 
