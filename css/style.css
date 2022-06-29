@@ -7,7 +7,7 @@ body {
     background: rgb(31, 30, 30);
     color: whitesmoke;
     font-family: marvel-font, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     margin: 0%;
 }
 
@@ -81,16 +81,19 @@ figure {
 .announcement {
     border: 0px solid red;
     align-self: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #disney-plus-logo-img {
     border: 0px solid green;
 }
 
+#wallpaper {
+    border: 0px solid green;
+}
+
 #wallpaper figure {
     border: 0px solid blue;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,11 +109,12 @@ figure {
     
 }
 
-
 #marvel-wallpaper {
     border: 0px solid blue;
-
-    width: 100%;
+    width: 100%; /* object-fit needs a width and height to work */
+    height: 65vh;
+    object-fit: cover;
+    object-position: 0px 0px;
     opacity: 0.4;
 }
 
