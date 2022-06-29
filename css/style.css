@@ -1,0 +1,80 @@
+@font-face {
+    font-family: marvel-font;
+    src: url(../font/marvel-font.ttf)
+}
+
+body {
+    background: rgb(31, 30, 30);
+    color: whitesmoke;
+    font-family: marvel-font, sans-serif;
+    font-size: 12px;
+    margin: 0%;
+}
+
+header {
+    border: 0px solid blue;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(56, 54, 54);
+    margin: 0%;
+}
+
+#marvel-logo-img {
+    border: 0px solid rgb(16, 16, 199);
+
+    vertical-align: top;
+}
+
+#main-nav-list {
+    border: 0px solid rgb(209, 14, 14);
+
+    list-style: none; /* removes bullet points */
+    margin: 0%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav-item {
+    border: 0px solid green;
+    
+    padding: 10px 10px 10px 10px; /* top, right, bottom, left */
+}
+
+#main-nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main-nav-list a:hover {
+    text-decoration: underline solid red;
+    text-underline-offset: 10px;
+}
+
+#announcement-section {
+    border: 1px solid blue;
+    background-color: rgb(23, 22, 22);
+    padding: 0%;
+}
+
+#announcement-section a{
+    text-decoration: none;
+    color: inherit;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.announcement {
+    border: 1px solid red;
+    align-self: center;
+    font-size: 14px;
+}
+
+#disney-plus-logo-img {
+    border: 1px solid green;
+    
+}
