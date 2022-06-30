@@ -96,11 +96,11 @@ a {
     border: 0px solid green;
 }
 
-#wallpaper {
+#wallpaper, #about-wallpaper {
     border: 0px solid green;
 }
 
-#wallpaper figure {
+#wallpaper figure, #about-wallpaper figure {
     border: 0px solid blue;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ a {
     position: relative;
 }
 
-#wallpaper figure figcaption {
+#wallpaper figure figcaption, #about-wallpaper figure figcaption {
     border: 0px solid red;
     text-transform: uppercase;
     text-align: center;
@@ -117,7 +117,7 @@ a {
     
 }
 
-#marvel-wallpaper {
+#marvel-wallpaper, #about-marvel-wallpaper {
     border: 0px solid blue;
     width: 100%; /* object-fit needs a width and height to work */
     height: 65vh;
@@ -239,3 +239,45 @@ a {
 #social-media a img:hover{
     opacity: 0.55;
 }
+
+#about-main-content {
+    border: 0px solid red;
+}
+#about-wallpaper {
+    position: relative;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+.diagonal-crop {
+    border: 0px solid red;
+    position: absolute;
+    z-index: 1;
+    background: rgb(31, 30, 30);
+    width: 105vw;
+    height: 20%;
+    bottom: -10%;
+    transform: rotate(-2.5deg);
+}
+
+.info-contact {
+    font-family: sans-serif;
+    border: 0px solid blue;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    margin-bottom: 5%;
+}
+
+#help-link {
+    text-decoration: underline;
+    color: red;
+}
+
+#help-phone {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
