@@ -281,3 +281,20 @@ a {
     color: whitesmoke;
 }
 
+#contact-form {
+    border: 0px solid red;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form form {
+    text-align: center;
+    padding: 7.5%;
+}
+
+#contact-form form fieldset {
+    width: 10%;
+}
+
+

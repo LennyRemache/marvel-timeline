@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Lenny Remache" />
-    <meta name="description" content="Marvel Timeline About Page" />
-    <title>Marvel Timeline | About</title>
+    <meta name="description" content="Marvel Timeline Contact Page" />
+    <title>Marvel Timeline | Contact</title>
     <link rel="icon" href="../img/marvel-m-logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
   </head>
@@ -50,66 +50,74 @@
       </nav>
     </header>
     <main>
-      <article id="about-main-content">
-        <section id="about-wallpaper">
-          <figure>
-            <img
-              id="about-marvel-wallpaper"
-              src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengers_2.jpg"
-              alt="Marvel Wallpaper"
-              title="Marvel Cinematic Universe"
-            />
-            <figcaption>Marvel Timeline Corporate Information</figcaption>
-          </figure>
-          <div class="diagonal-crop"></div>
-        </section>
-        <section class="info-contact">
-          <h1>Company Info and Contact</h1>
-          <p>
-            Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt
-            Disney Company, is one of the world's most prominent character-based
-            entertainment companies, built on a proven library of more than
-            8,000 characters featured in a variety of media over seventy-five
-            years. Marvel utilizes its character franchises in entertainment,
-            licensing and publishing. For more information visit marvel.com.
-            &copy; 2020 MARVEL TIMELINE
-          </p>
-          <h2>Corporate Headquarters</h2>
-          <address>
-            Marvel Entertainment, LLC<br />1290 Avenue of the Americas<br />New
-            York, NY 10104
-          </address>
-          <h2>Business Inquiries</h2>
-          <p>
-            For tech support, please visit the
-            <a id="help-link" href="#">Help Page</a>.<br />General phone number,
-            Marvel Entertainment, LLC:
-            <a id="help-phone" href="tel:212-576-4000">212-576-4000</a>
-          </p>
-          <h2>Consumer Inquiries</h2>
-          <p>
-            For FAQ's related to Marvel Comics and Marvel.com: Visit the
-            <a id="help-link" href="#">Help Page</a>.<br />
-
-            Marvel.com, Marvel Comics app, and Marvel Digital Comics Unlimited
-            Subscriptions:<br />
-            For any inquiries unresolved by the Help Page, please use the
-            Contact Form <a id="help-link" href="contact.html">here</a>.
-          </p>
-
-          <h3>For Print Subscriptions:</h3>
-
-          <address>
-            Marvel Subscriptions<br />
-            PO Box 727<br />
-            New Hyde Park, NY 11040<br />
-            TOLL FREE: 888-511-5480<br />
-            marvelsubs@midtowncomics.com
-          </address>
-        </section>
-      </article>
+      <section id="about-wallpaper">
+        <figure>
+          <img
+            id="about-marvel-wallpaper"
+            src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/news_articles-mas_mob_01.jpg"
+            alt="Marvel Wallpaper"
+            title="Marvel Cinematic Universe"
+          />
+          <figcaption>Contact Us</figcaption>
+        </figure>
+        <div class="diagonal-crop"></div>
+      </section>
+      <section id="contact-form">
+        <form action="https://httpbin.org/post" method="post">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="fullName">Name: </label>
+              <input
+                type="text"
+                name="name"
+                id="fullName"
+                placeholder="full name"
+                autocomplete
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your email"
+                autocomplete
+                required
+              />
+            </p>
+            <p>
+              <label for="number">Phone Number: </label>
+              <input
+                type="tel"
+                name="phone-number"
+                id="number"
+                placeholder="8888888888"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                autocomplete
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Message: </label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="50"
+                rows="20"
+                placeholder="message here"
+                required
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </form>
+      </section>
     </main>
-    <br /><br />
     <hr />
     <br /><br /><br /><br />
     <footer>
